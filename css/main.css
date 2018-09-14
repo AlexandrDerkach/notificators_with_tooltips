@@ -284,3 +284,16 @@ body, html {
 .button_theme_gray .button__text {
   color: #333;
 }
+
+.button_theme_gray:hover {
+  background-color: #f27167;
+  color: #fff;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+
+.button_theme_gray:hover .button__text {
+  color: #fff;
+}

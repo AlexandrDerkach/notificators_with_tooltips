@@ -245,14 +245,21 @@ body,html
 {
   @include bg_theme_gray;
 
-  &:hover
-  {
-
-  }
-
   .button__text
   {
 	color: $color_black;
+  }
+
+  &:hover
+  {
+    background-color: #f27167;
+    color: #fff;
+    transition: .3s;
+
+    .button__text
+    {
+      color: $text_color_default;
+    }
   }
 }
 
